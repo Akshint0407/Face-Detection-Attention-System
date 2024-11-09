@@ -63,15 +63,17 @@ Name each image according to the person’s name (e.g., elon_musk.jpg).
 4.Run the System:
 python main.py
 
-**Usage**
+🧑‍💻**Usage**
 1.	Run main.py: Start the program by running main.py.
 2.	Camera Activation: The webcam will activate and begin detecting faces.
 3.	Automatic Logging: Recognized faces are logged in a CSV file with names and timestamps.
 4.	Exit: Press q to stop the program.
+   
 **Troubleshooting**
 •	Face Not Recognized: Ensure the images in photos/ are clear and properly named.
 •	Voice Notification Not Working: Verify pyttsx3 installation and functionality.
 •	CSV Not Logging: Confirm correct file path in the code for the CSV file.
+
 **License**
 •	This project is open source and distributed under the MIT License.
 
