@@ -11,8 +11,6 @@ This project is an automated attendance system that uses face recognition to ide
 - ✅ **Real-Time Face Detection:** Detects and captures faces using a webcam feed.
 - 🧠 **Face Recognition:** Matches detected faces against a pre-stored database of images.
 - 🗂️ **Automated Attendance Logging:** Records each recognized individual’s name and timestamp in a CSV file.
-- 🔊 **Voice Notification:** Announces the name of the recognized individual using text-to-speech.
-
 ---
 
 ## 📚 Technology Stack
@@ -31,8 +29,8 @@ This project is an automated attendance system that uses face recognition to ide
 
 | File/Folder         | Description                                                |
 |---------------------|------------------------------------------------------------|
-| `main.py`           | Main script to run the attendance system                   |
-| `photos/`           | Folder containing images of registered individuals         |
+| `Source code.py`    | Main script to run the attendance system                   |
+| `image_attendance/` | Folder containing images of registered individuals         |
 | `attendance.csv`    | File where attendance records are stored                   |
 | `requirements.txt`  | List of required Python libraries                          |
 | `README.md`         | Project documentation                                      |
@@ -54,7 +52,7 @@ This project is an automated attendance system that uses face recognition to ide
 
 3. Add Photos of Users
 
-- Place clear, well-lit images of each individual in the photos/ folder.
+- Place clear, well-lit images of each individual in the image_attendance/ folder.
 
 - Name each image according to the person's name (e.g., elon_musk.jpg).
 
@@ -66,13 +64,13 @@ This project is an automated attendance system that uses face recognition to ide
    python main.py
 
 ## 🧑‍💻 Usage
-- Run main.py to start the program.
+- Run Source code.py to start the program.
 
 = Your webcam will activate and begin detecting faces.
 
 - Recognized faces will be logged in attendance.csv with names and timestamps.
 
-- Press q to exit the program.
+- Press ctrl + c to exit the program.
 
 ## 🛠️ Troubleshooting
 - Face Not Recognized: Ensure images in photos/ are clear, front-facing, and properly named.
